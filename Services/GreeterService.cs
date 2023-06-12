@@ -23,7 +23,7 @@ public class GreeterService : Greeter.GreeterBase
 
 
     /// <summary>
-    /// Test method
+    /// Test gRPC method 
     /// </summary>
     /// <param name="request"></param>
     /// <param name="context"></param>
