@@ -22,6 +22,12 @@ public class GreeterService : Greeter.GreeterBase
     }
 
 
+    /// <summary>
+    /// Test method
+    /// </summary>
+    /// <param name="request"></param>
+    /// <param name="context"></param>
+    /// <returns></returns>
     public override Task<SquareReply> GetPow2(SquareRequest request, ServerCallContext context)
     {
         double d = 0.0D;
